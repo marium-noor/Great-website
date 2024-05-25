@@ -1,0 +1,28 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black; 
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slick-slide {
+  margin: 0 10px;
+  
+}
+ */
+ 
+
+ body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
