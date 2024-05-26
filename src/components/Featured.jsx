@@ -1,5 +1,5 @@
 import React from 'react';
-import { featuredData } from '../constants';
+import { featuredDataMen } from '../constants';
 
 function Featured() {
   return (
@@ -13,7 +13,7 @@ function Featured() {
       </div>
       
       <div className='flex flex-wrap justify-center'>
-        {featuredData.map((data, index) => (
+        {featuredDataMen.map((data, index) => (
           <div key={index} className='max-w-xs m-4 hover:text-2xl'>
             <div className='relative'>
               <img src={data.image} alt="" className='w-full h-auto object-cover' />

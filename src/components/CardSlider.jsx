@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { cardData } from "../constants";
+import { cardDataMen } from "../constants";
 
 function CardSlider() {
   function SampleNextArrow(props) {
@@ -67,7 +67,7 @@ function CardSlider() {
   return (
     <div className="w-3/4 inset-0 mt-10">
             <Slider {...settings}>
-                {cardData.map((d, index) => (
+                {cardDataMen.map((d, index) => (
                     <div key={index} className="w-72 min-h-[350px] md:w-96 border border-gray-300 rounded-lg overflow-hidden bg-white shadow-md">
                     <img
                     src={d.image}

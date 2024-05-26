@@ -5,7 +5,7 @@ export const navItems = [
     { label: "Accessories", href: "#" },
 ];
 
-export const cardData = [
+export const cardDataMen = [
     {
         image: 'https://www.greats.com/cdn/shop/files/GREATS-Mens-Royale2.0-LightTaupe-02_WEB.jpg?v=1712075270',
         name: "Men's Royale 2.0",
@@ -44,7 +44,7 @@ export const cardData = [
 
 ]
 
-export const featuredData = [
+export const featuredDataMen = [
     {
         image: 'https://www.greats.com/cdn/shop/files/Low-Tops-Update-Winter-Content-Blocks-Featured.jpg?v=1701460779',
         text: 'Tops'
