@@ -6,6 +6,7 @@ import NewArrival from './components/NewArrival'
 import PicSection from './components/PicSection'
 import Featured from './components/Featured'
 import Footer from './components/Footer'
+
 function App() {
   return (
     <div>

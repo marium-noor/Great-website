@@ -44,6 +44,40 @@ export const cardDataMen = [
 
 ]
 
+export const cardDataWomen = [
+    {
+        image: 'https://www.greats.com/cdn/shop/files/GREATS-Womens-MistyRunner-Blanco-01_Web.jpg?v=1713886890',
+        name: "Woneb's Misty Runner",
+        price: "$240",
+    },
+    {
+        image: 'https://www.greats.com/cdn/shop/files/GREATS-Womens-Brighton-Blanco-02_WEB.jpg?v=1710786005',
+        name: "Women's Brighton",
+        price: "$220",
+    },
+    {
+        image: 'https://www.greats.com/cdn/shop/files/GREATS-Womens-Reign-Pink-02_Web.jpg?v=1697655638',
+        name: "Women's Reign",
+        price: "$230",
+    },
+    {
+        image: 'https://www.greats.com/cdn/shop/files/GREATS-Womens-Essex-Cuoio-01_WEB.jpg?v=1709228040',
+        name: "Women's Essex penny loafer",
+        price: "$189",
+    },
+    {
+        image: 'https://www.greats.com/cdn/shop/files/GREATS-Womens-Charlie-BlackWhite-02_WEB.jpg?v=1707758295',
+        name: "Women's Charlie",
+        price: "",
+    },
+    {
+        image: 'https://www.greats.com/cdn/shop/files/BRC-Womens-Web.jpg?v=1710443468',
+        name: "Women's BRC Runner",
+        price: "$225",
+    },
+    
+]
+
 export const featuredDataMen = [
     {
         image: 'https://www.greats.com/cdn/shop/files/Low-Tops-Update-Winter-Content-Blocks-Featured.jpg?v=1701460779',
@@ -59,6 +93,20 @@ export const featuredDataMen = [
     },
 ]
 
+export const featuredDataWomen = [
+    {
+        image: 'https://www.greats.com/cdn/shop/files/Featured_Womens-Low-Tops_273ea25e-f7bf-47f8-ba3a-6af4a8945491.jpg?v=1697569138',
+        text: 'Show Low Tops'
+    },
+    {
+        image: 'https://www.greats.com/cdn/shop/files/Royale-2.0-Update-Winter-Content-Blocks-Featured.jpg?v=1701460686',
+        text: 'Shope White Sneakers'
+    },
+    {
+        image: 'https://www.greats.com/cdn/shop/files/Shoe-Care_1.jpg?v=1687450575',
+        text: 'Shop Shoe Care & Laces'
+    },
+]
 export const aboutUs = [
     {text: 'Our Story'},
     {text: 'The PlayBook'},
