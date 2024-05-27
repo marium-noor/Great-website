@@ -17,10 +17,9 @@ function CardSlider() {
     const { className, style, onClick } = props;
     return (
       <div
-        className={className}
-        style={{ ...style, background: "black" }}
-        onClick={onClick}
-      />
+      className={`${className} custom-prev-arrow`} // Add custom class
+      style={{ ...style, display: "block", background: "black", padding: "0.5px", borderRadius: "50%" }} // Add padding and other styles
+      onClick={onClick}      />
     );
   }
   
@@ -28,9 +27,9 @@ function CardSlider() {
     const { className, style, onClick } = props;
     return (
       <div
-        className={className}
-        style={{ ...style, background: "black" }}
-        onClick={onClick}
+      className={`${className} custom-prev-arrow`} // Add custom class
+      style={{ ...style, display: "block", background: "black", padding: "0.5px", borderRadius: "50%" }} // Add padding and other styles
+      onClick={onClick}
       />
     );
   }
@@ -90,7 +89,7 @@ function CardSlider() {
         <div className="w-3/4 inset-0 mt-10">
             <Slider {...settings}>
                 {dataToShow.map((d, index) => (
-                    <div key={index} className="w-72 min-h-[350px] md:w-96 border border-gray-300 rounded-lg overflow-hidden bg-white shadow-md">
+                    <div key={index} className="w-72 h-[350px] md:w-96 border border-gray-300 rounded-lg overflow-hidden bg-white shadow-md">
                     <img
                     src={d.image}
                       alt="Product"
